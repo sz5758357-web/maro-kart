@@ -1,0 +1,14 @@
+{
+  "name": "super-drift-kart",
+  "version": "1.0.0",
+  "description": "Browser kart racing game",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "qrcode": "^1.5.4"
+  }
+}
